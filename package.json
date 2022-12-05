@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "test": "jest --runInBand --detectOpenHandles --forceExit"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "jest-puppeteer": "^6.0.3"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run install"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "exec": "^0.2.1",
+    "process": "^0.11.10",
+    "util": "^0.12.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/UIB-publishing-flow",
+    "id": 221925329
+  }
+}
